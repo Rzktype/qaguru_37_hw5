@@ -16,7 +16,7 @@ public class SolutionsEnterprizeHoverTest {
     }
 
     @Test
-    void SolutionsHoverTest() {
+    void solutionsHoverTest() {
         open("https://github.com/");
         $(".HeaderMenu-nav").$(byText("Solutions")).hover();
         $(".HeaderMenu-nav").$(byText("Enterprises")).click();
